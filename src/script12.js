@@ -13,7 +13,7 @@ const fontLoader = new FontLoader()
 const scene = new three.Scene()
 
 const textureLoader = new three.TextureLoader()
-const matcapTexture = textureLoader.load('textures/matcaps/5.png')
+const matcapTexture = textureLoader.load('textures/matcaps/4.png')
 
 const sizes = 
 {
@@ -27,7 +27,7 @@ fontLoader.load('/fonts/helvetiker_regular.typeface.json', (font) =>
 
   const textObj = new TextGeometry
   (
-    'Claud Gerona LIVEEE',
+    'Sherlyn Ardiente LIVEEE',
     {
       font: font,
       size: 0.5,
